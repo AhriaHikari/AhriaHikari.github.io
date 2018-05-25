@@ -70,7 +70,13 @@ main figure img {
 		position: relative;
 		left: -10px;
 		}
-
+section.weather-summary picture img{
+		float: left;
+		width: 5em;
+		height: 5em;
+}
+section.weather-summary div{		
+}
 article {
 	border:
 
