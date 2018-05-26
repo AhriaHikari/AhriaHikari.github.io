@@ -9,38 +9,56 @@ body {
 }
 
 header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
-  max-width: 90em;
+  max-width: 1440px;
   font-family: Verdana; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
 }
 
 header {
 	background-color: #3e2c5c;
+	position: relative;
+}
+header > div {
+    display: flex;
 }
 header h1 {
 	color: #ffffff;
 	font-size: 30px;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: 300;
+	margin-bottom: 3px;
+    margin-top: 3px;
+    padding-right: 3em;
+    box-sizing: border-box;
 }
 header img {
-		float: right;
-		width: 5em;
-		height: 5em;
+	width: 6em;
+    height: 6em;
 }
 header .subheading {
 	 color: #ffffff;
 	 font-size: 20px;	 
 }
 
-nav {}
-nav button {}
-nav ul {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
-		background-color: #590220;
+nav img {
+	
+	height: 3em;
+    width: 3em;
 }
-nav ul li {
-		
+nav button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: none;
+    border: none;
+}
+nav ul {
+	display: none;
+	list-style-type: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #590220;
 }
 nav ul li a {
 			color: #ffffff;
@@ -52,32 +70,56 @@ nav ul li.active a {
 nav ul li a:hover {
 		color: #3e2c5c
 }
-main {}
 section.forecast {
 	display:none;
 }
 main h2 {
-	background-color: #a6a1a1;
 	font-size: 25px;
 	padding: 10px;
-	position: relative;
 	top: -25px;
+	text-align: center;
 }
-main figure { margin: 0 0 .2rem 2%; width:96%; }
+section.weather-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 main figure img {
 		width: 20em;
 		height: 10em;
-		position: relative;
-		left: -10px;
 		}
+.current div {
+	display:flex;
+	align-items: center;
+}
+picture {
+			padding-left: 1em;
+		}
+.highlow{
+	display: flex;
+}
+.highlow p {
+		padding: 0 1em;
+}
 section.weather-summary picture img{
-		float: left;
+		position: relative;
 		width: 5em;
 		height: 5em;
 }
-section.weather-summary div{		
-}
 article {
-	border:
-
-footer {}
+	border: 2px groove #a6a1a1;
+	box-sizing: border-box;
+}
+article img {
+	width: 20em;
+	height: 10em;
+	max-width: 100%;
+}
+footer section.contact {
+	background-color: #3e2c5c;
+	text-align: center;
+}
+footer section.footer-bar {
+	background-color: #590220;
+	text-align: center;
+}
