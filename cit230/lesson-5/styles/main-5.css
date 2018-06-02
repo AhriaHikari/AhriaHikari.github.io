@@ -10,7 +10,7 @@ body {
 
 header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
   max-width: 1440px;
-  font-family: Verdana; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+  font-family: 'Aclonica', Verdana, sans-serif; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
 }
 
 header {
@@ -39,8 +39,7 @@ header .subheading {
 	 font-size: 20px;	 
 }
 
-nav img {
-	
+nav img {	
 	height: 3em;
     width: 3em;
 }
@@ -52,23 +51,24 @@ nav button {
     border: none;
 }
 nav ul {
-	display: none;
-	list-style-type: none;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 	background-color: #590220;
 }
+nav ul.hide {
+	display: none;
+}
 nav ul li a {
-			color: #ffffff;
-			font-size: 20px
+	color: #ffffff;
+	font-size: 20px
 }
 nav ul li.active a {
 	background-color: #8d0111
 }
 nav ul li a:hover {
-		color: #3e2c5c
+	background-color: #3e2c5c
 }
 section.forecast {
 	display:none;
@@ -85,26 +85,26 @@ section.weather-summary {
     align-items: center;
 }
 main figure img {
-		width: 20em;
-		height: 10em;
-		}
+	width: 20em;
+	height: 10em;
+}
 .current div {
 	display:flex;
 	align-items: center;
 }
 picture {
-			padding-left: 1em;
-		}
-.highlow{
+	padding-left: 1em;
+}
+.highlow {
 	display: flex;
 }
 .highlow p {
-		padding: 0 1em;
+	padding: 0 1em;
 }
 section.weather-summary picture img{
-		position: relative;
-		width: 5em;
-		height: 5em;
+	position: relative;
+	width: 5em;
+	height: 5em;
 }
 article {
 	border: 2px groove #a6a1a1;
