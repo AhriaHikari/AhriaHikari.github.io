@@ -1,0 +1,69 @@
+@media only screen and (min-width: 600px) {
+
+    /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
+    
+    nav button { display:none; }  /* hamburger button does not need to be shown in the medium on up views */
+    
+	section.forecast { display: block;}  /* show the 10-day forecast with the medium view and up */
+
+	nav ul {
+		display: block;
+	}
+	nav ul.hide{
+		display: block;
+	}
+	nav ul li {
+		float: left;
+		border-right: 1px solid #a6a1a1
+	}
+	nav ul li a {
+		display: block;
+		padding:8px;
+	}
+	nav ul li a.active {
+		background-color: #8d0111 
+	}
+	header h1 {
+		font-weight: 1000;
+		margin-bottom: 17px;
+	}
+	figure img{
+		margin: 0;
+		width: 50em;
+	}
+	section.forecast h3 {
+		border-bottom: 1px solid #8d0111;
+		text-align: center;
+		background: #a6a1a1;
+		margin: 0;
+	}
+	section.forecast {
+		border: 1px solid #8d0111;
+		background: #a6a1a1;
+	}
+	table {
+		text-align: center;
+	}
+	main h2 {
+		margin-bottom: -10px;
+	}
+	article {
+		display: flex;
+		flex-direction: column;
+	}
+	article img {
+		align-self: center;
+	}
+
+	main.wrapper {
+		display:grid;
+		grid-template-columns: 1fr 1fr;
+		column-gap: 10px;
+		row-gap: 1em;
+  	}
+  	
+	main.wrapper img:hover{
+		box-shadow: 5px 5px 10px gray;
+	}  
+  }
+
