@@ -1,9 +1,10 @@
 body{
-    font-family:Ubuntu, sans-serif;
+    font-family: Ubuntu, sans-serif;
 }
 table{
     width: 270px;
     height: 200px;
+    box-shadow: 10px 10px 10px grey;    
 }
 table caption{
     background-color: #7fb9c2;
@@ -11,18 +12,20 @@ table caption{
     padding: 10px;
     font-size: 30px;
     font-weight: bold;
-
+    box-shadow: 10px 10px 10px grey; 
 }
 table, th, td{
     border: 1px solid gray;
     border-collapse: collapse;
     text-align: center;
+    
 }
 
 thead{
     background-color: #628ca6;
     color: white;
     border: 1px solid gray;
+    
 }
 tbody tr:nth-child(even){
     background-color: #e7f0ed;
