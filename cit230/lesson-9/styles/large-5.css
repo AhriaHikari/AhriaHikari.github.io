@@ -9,4 +9,11 @@
 form label.sbs{
 	padding: .4rem 0;
 }
+div img{
+	width: 500px;
+	height: 300px;
+}
+body {
+	font-size: 20px;
+}
   }

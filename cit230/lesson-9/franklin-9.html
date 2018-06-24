@@ -17,7 +17,7 @@
 <body>
 
 <header>
-    <div>
+    <div class="logo">
     <img src="images/Optimized-logo.jpg" alt="Red Sky Logo" >
       <div>
         <h1>
@@ -32,12 +32,12 @@
       <script src="scripts/hamburger.js"></script>
     <button onclick="toggleMenu()"><img src="images/hamburger2.png" alt="burger"></button>
     <ul id="menu" class="hide">
-      <li><a href="#">Home</a></li>
-      <li class="active"><a href="franklin-8.html">Franklin</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li class="active"><a href="franklin-9.html">Franklin</a></li>
       <li><a href="#">Greenville</a></li>
       <li><a href="#">Springfield</a></li>
       <li><a href="stormcenter.html">Storm Center</a></li>
-      <li><a href="gallery-8.html">Gallery</a></li>
+      <li><a href="gallery-9.html">Gallery</a></li>
     </ul>		
     </nav>
 </header>
@@ -54,9 +54,10 @@
           <h3>Weather Summary</h3>    
           <div class="current">
             <div>
-              Sunny
+              <span id="description">Sunny</span>
+              <span id="currentTemp"></span>
               <picture>
-              <img src="images/Sun-PNG-Image.png" alt="Sun">
+              <img  id="icon" src="images/Sun-PNG-Image.png" alt="Sun">
               </picture>
             </div>
           </div>
@@ -72,7 +73,8 @@
       <p>Wind Chill: <span id="chill"></span>&deg;F</p>  
     </div>           
   </section>
-  <script src="scripts/windchill.js"></script>      
+  <script src="scripts/windchill.js"></script>
+  <script src="scripts/weather.js"></script>      
   <section class="forecast">
     <h3>Ten Day Forecast</h3>
     <table>
