@@ -40,6 +40,7 @@
 	section.forecast {
 		border: 1px solid #8d0111;
 		background: #a6a1a1;
+		justify-content: space-evenly;
 	}
 	table {
 		text-align: center;
