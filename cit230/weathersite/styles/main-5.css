@@ -71,6 +71,8 @@ nav ul li a:hover {
 }
 section.forecast {
 	display:none;
+	align-items: center;
+	text-align: center;
 }
 main h2 {
 	font-size: 25px;
