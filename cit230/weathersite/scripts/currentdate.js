@@ -1,5 +1,4 @@
- window.onload = function() {
- var d = new Date();
+    var d = new Date();
     var weekday = new Array(7);
     weekday[0] = "Sunday";
     weekday[1] = "Monday";
@@ -17,4 +16,3 @@
     var t = d.getFullYear();
 
     document.getElementById("currentdate").innerHTML = n + ", " + o + " " + w + " " + t;
-}
