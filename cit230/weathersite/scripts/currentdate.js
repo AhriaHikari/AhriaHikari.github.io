@@ -14,5 +14,7 @@
     var o = d.getDate();
     var w = months[d.getMonth()];
     var t = d.getFullYear();
-
+setTimeout(function(){
     document.getElementById("currentdate").innerHTML = n + ", " + o + " " + w + " " + t;
+}, 2000)
+    
