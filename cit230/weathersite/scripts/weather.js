@@ -2,7 +2,9 @@ var frankRequest = new XMLHttpRequest();
 frankRequest.open('GET','http://api.openweathermap.org/data/2.5/weather?id=4156210&appid=e442dd1a81e49c900fae77211c3d0018&units=imperial', true);
 
 
-frankRequest.send();
+setTimeout(function(){
+    frankRequest.send();
+}, 500)
 
 frankRequest.onload = function() {
     var frankInfo = JSON.parse(frankRequest.responseText);

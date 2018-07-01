@@ -2,7 +2,9 @@ var springRequest = new XMLHttpRequest();
 springRequest.open('GET','http://api.openweathermap.org/data/2.5/weather?id=4156210&appid=e442dd1a81e49c900fae77211c3d0018&units=imperial', true);
 
 
-springRequest.send();
+setTimeout(function(){
+    springRequest.send();
+}, 500) 
 
 springRequest.onload = function() {
     var springInfo = JSON.parse(springRequest.responseText);
