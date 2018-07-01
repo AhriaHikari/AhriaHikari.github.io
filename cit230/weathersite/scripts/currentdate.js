@@ -16,5 +16,5 @@
     var t = d.getFullYear();
 setTimeout(function(){
     document.getElementById("currentdate").innerHTML = n + ", " + o + " " + w + " " + t;
-}, 2000)
+}, 500)
     
