@@ -13,6 +13,7 @@ main {
 /*--------Header-------*/
 header {
     display: flex;
+    flex-direction:row;
     background-color: #809507;
 
 }
@@ -21,6 +22,6 @@ header img{
     width: 1em;
     height: 1em;
 }
-img.heading{
+img#heading{
     display:hide;
 }
