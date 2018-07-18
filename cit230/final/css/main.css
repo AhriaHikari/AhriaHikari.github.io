@@ -1,0 +1,26 @@
+* { box-sizing: border-box;}
+
+/*------Font------*/
+header, nav, footer {
+    max-width: 1140px;
+    font-family:'Markazi Text', serif;
+}
+
+main {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*--------Header-------*/
+header {
+    display: flex;
+    background-color: #809507;
+
+}
+
+header img{
+    width: 1em;
+    height: 1em;
+}
+img.heading{
+    display:hide;
+}
