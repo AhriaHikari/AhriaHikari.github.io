@@ -69,3 +69,12 @@ nav ul li.active a {
 nav ul li a:hover {
 	background-color: #D30F02;
 }
+
+/*--------Main---------*/
+main img{
+    width: 613px;
+}
+
+main div img{
+    width: 613px;
+}
