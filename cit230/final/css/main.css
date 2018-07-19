@@ -8,20 +8,64 @@ header, nav, footer {
 
 main {
     font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }
 
 /*--------Header-------*/
-header {
-    display: flex;
-    flex-direction:row;
+header { 
     background-color: #809507;
+    position: relative;
+}
 
+header > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: -webkit-fill-available;
 }
 
 header img{
-    width: 1em;
-    height: 1em;
+    width: 20em;
+    height: 20em;
+    align-self: flex-start;
 }
+
 img#heading{
-    display:hide;
+    display:none;
+}
+
+/*---------Navigation----------*/
+nav img{
+    height: 3em;
+    widows: 3em;
+}
+
+nav button {
+	background: none;
+    border: none;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #809507;
+}
+
+nav ul.hide {
+	display: none;
+}
+
+nav ul li a {
+	color: #ffffff;
+	font-size: 20px
+}
+
+nav ul li.active a {
+    background-color: #D30F02;
+}
+
+nav ul li a:hover {
+	background-color: #D30F02;
 }
