@@ -12,8 +12,7 @@ main {
 }
 
 body {
-    width:100%;
-    
+    width: 100%;   
 }
 
 /*--------Header-------*/
@@ -24,22 +23,33 @@ header {
 
 header > div {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    width: -webkit-fill-available;
+    flex-direction: row;
+    align-items: center;
 }
 
 header div img{
-    width: 20em;
-    height: 20em;
+    width: 7em;
+    height: 7em;
     align-self: flex-start;
 }
 
 img#heading{
-    display:none;
+    display: none;
+}
+
+h1 {
+    font-size: 25px;
+    margin: 0;
 }
 
 /*---------Navigation----------*/
+nav{
+    background-color: #809507;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 nav img{
     height: 3em;
     widows: 3em;
@@ -55,7 +65,8 @@ nav ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #809507;
+    background-color: #AFA605;
+    text-align: center;
 }
 
 nav ul.hide {
@@ -64,15 +75,16 @@ nav ul.hide {
 
 nav ul li a {
 	color: #ffffff;
-	font-size: 20px
+    font-size: 25px;
+    text-decoration: none;
 }
 
 nav ul li.active a {
-    background-color: #D30F02;
+    color: #D30F02;
 }
 
 nav ul li a:hover {
-	background-color: #D30F02;
+	color: #FA2D08;
 }
 
 /*--------Main---------*/
