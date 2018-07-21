@@ -1,35 +1,51 @@
 @media only screen and (min-width: 600px) {
 
-    nav button {
-         display:none; 
-    }
+	/*----Nav-----*/
+	nav button {
+		display:none; 
+	}
 
-    nav ul {
+	nav ul {
 		display: block;
-    }
+	}
     
 	nav ul.hide{
 		display: block;
-    }
+	}
     
 	nav ul li {
 		float: left;
-		border-right: 1px solid #a6a1a1
-    }
+		border-right: 1px solid #F7C20E;
+	}
     
 	nav ul li a {
 		display: block;
 		padding:8px;
-    }
+	}
     
 	nav ul li a.active {
-		background-color: #D30F02;
-    }
-    
+		color: #D30F02;
+	}
+	
+	/*------Header------*/
 	header h1 {
 		font-weight: 1000;
 		margin-bottom: 17px;
+		font-size: 3em;
+	}
+	
+	header div img {
+		width: 8em;
+		height: 8em;
 	}
 
+	img#heading {
+		display: block;
+		width: 185px;
+	}
 
+	/*------Main-----*/
+	main img{
+		height: 20em;
+	}
 }
