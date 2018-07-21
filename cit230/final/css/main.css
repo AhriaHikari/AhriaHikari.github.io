@@ -89,9 +89,34 @@ nav ul li a:hover {
 
 /*--------Main---------*/
 main img{
-    width: 613px;
+    width: 100%;
 }
 
 main div img{
-    width: 613px;
+    width: 100%;
+}
+
+main div{
+    text-align: center;
+    border: solid #F7C20E 1px;
+}
+
+div a{
+    color: #F7C20E;
+    text-decoration: none;
+}
+
+iframe{
+    width: 100%;
+}
+
+/*-------Footer-----*/
+footer{
+    background-color: #809507;
+    color: #ffffff;
+}
+
+footer a{
+    color: #F7C20E;
+    text-decoration: none;
 }
