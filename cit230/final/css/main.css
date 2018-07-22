@@ -2,7 +2,6 @@
 
 /*------Font------*/
 header, nav, footer {
-    max-width: 1140px;
     font-family:'Markazi Text', serif;
 }
 
@@ -88,11 +87,6 @@ nav ul li a:hover {
 }
 
 /*--------Main---------*/
-main img{
-    width: 100%;
-    
-}
-
 main div img{
     width: 100%;
 }
@@ -107,7 +101,7 @@ div a{
     text-decoration: none;
 }
 
-iframe{
+div#google{
     width: 100%;
 }
 

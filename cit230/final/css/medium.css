@@ -21,6 +21,7 @@
 	nav ul li a {
 		display: block;
 		padding:8px;
+		font-size: 36px;
 	}
     
 	nav ul li a.active {
@@ -49,10 +50,6 @@
 	}
 
 	/*------Main-----*/
-	main img{
-		height: 20em;
-	}
-
 	main div img {
 		order: 1;
 	}
@@ -63,5 +60,14 @@
 
 	iframe{
 		width: 80%
+	}
+
+	p {
+        font-size: 15px;
+    }
+
+	/*-----Footer-----*/
+	section.footerbar {
+		font-size: 20px;
 	}
 }
