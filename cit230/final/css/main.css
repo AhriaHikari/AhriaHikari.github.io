@@ -104,6 +104,11 @@ main div {
     border: solid #F7C20E 1px;
 }
 
+main article {
+    text-align: center;
+    border: solid #F7C20E 1px;
+}
+
 div a {
     color: #F7C20E;
     text-decoration: none;
