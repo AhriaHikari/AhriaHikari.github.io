@@ -109,6 +109,11 @@ div a {
     text-decoration: none;
 }
 
+p a {
+    color: #F7C20E;
+    text-decoration: none;
+}
+
 div#google {
     width: 100%;
 }

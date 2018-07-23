@@ -57,6 +57,10 @@
 	main div{
 		align-items: center;
 	}
+	
+	main h2 {
+		text-align: center;
+	}
 
 	iframe{
 		width: 80%
