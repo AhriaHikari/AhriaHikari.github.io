@@ -28,6 +28,10 @@
         width: 50%;
     }
 
+    img#adventureFix {
+        height: 51%;
+    }
+
     /*-----Footer-----*/
 	section.footerbar {
 		font-size: 30px;
