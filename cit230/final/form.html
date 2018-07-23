@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width==device-width,
+		initial-scale=1">
+		<meta name="description" content="The home page of the Mountain Spoke website.">
+		<link href="https://fonts.googleapis.com/css?family=Markazi+Text|Open+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+		<title>Mountain Spoke | Registration | When in Doubt, Pedal it Out</title>
+	</head>
+	<body>
+        <header includefile="header.html">
+        </header>
+        <nav includefile="navigation.html">
+		</nav>
+		<main>
+            <h1>Join Us on the Adventure of a lifetime!</h1>
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label class="top">Full Name*<input type="text" name="fullname" pattern="[A-Za-z\s]{5,}" title="Please write your full name." required></label>
+                    <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="top">Phone*<input type="tel" name="phone" required></label>
+                    <label class="top">Date of Birth (mm/dd/yyyy)*<input type="date" name="bDay" required></label>
+                    <label class="top">Address<input type="text" name="address"></label>
+                    <label class="top">City<input type="text" name="city"></label>
+                    <label class="top">State<input type="text" name="state" pattern="[A-Z]{2}"></label>
+                    <label class="top">Zip Code<input type="text" name="zip" pattern="[0-9]{5}"></label>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Adventure Package</legend>
+                    <label class="top">Select an Adventure!
+                    <input list="adventureEvent">
+                        <datalist id="adventureEvent">
+                        <option value="" selected disabled>Please Select &#9662;</option>
+                        <option value="Glacier National Park"></option>
+                        <option value="Journey to Yellowstone"></option>
+                        <option value="Cycle the Continental Divide Event"></option>
+                        </datalist>
+                    </label>
+                   
+                    <label class="top">Non-events pick a date<input type="date" name="divideDate"></label>
+                   <label class="top">Number of Cyclists<input type="number" name="numCycle"></label> 
+
+                   <div>Cyclist Level</div>
+                <label class="sbs"><input type="radio" name="level" value="beginner">Beginner</label>
+                <label class="sbs"><input type="radio" name="level" value="intermediate">Intermediate</label>
+                <label class="sbs"><input type="radio" name="level" value="advanced">Advanced</label>
+                <label class="sbs"><input type="radio" name="level" value="expert">Expert</label>
+                <label class="sbs"><input type="radio" name="level" value="pro">Pro</label>
+    
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Special Accomodations or Comments</legend>
+                    <textarea name="comments" rows="10" cols="30"></textarea>
+                </fieldset>
+    
+                <input type="submit" value = "Report" class="submitBtn">
+            </form>
+		</main>
+        <footer includefile="footer.html">
+		</footer>
+		<script src="js/include.js"></script>
+		<script src="js/hamburger.js"></script>
+		<script src="js/active.js"></script>
+	</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width==device-width,
+		initial-scale=1">
+		<meta name="description" content="The home page of the Mountain Spoke website.">
+		<link href="https://fonts.googleapis.com/css?family=Markazi+Text|Open+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <script src="//code.jquery.com/jquery-2.2.1.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.head').click(function(e){
+                e.preventDefault();
+                $(this).closest('li').find('.content').not('animated').slideToggle();
+                });
+            });
+        </script>
+		<title>Mountain Spoke | Store | When in Doubt, Pedal it Out</title>
+	</head>
+	<body>
+        <header includefile="header.html">
+        </header>
+        <nav includefile="navigation.html">
+		</nav>
+		<main>
+            <ul>
+                <li>
+                    <a href="#" class="head">Trek Fuel EX 7 29</a>
+                    <div class="content">
+                        <img src="img/fuelex729.jpeg">
+                        <p>Fuel EX 7 shines when you're charging down tricky descents,
+                            where the dropper post upgrade and 130mm of front and rear suspension travel come in handy.
+                            A lightweight aluminum frame, Tubeless Ready 29er wheels, 
+                            and a reliable 1x11 SRAM NX drivetrain make this an awesome all-around full suspension mountain bike.</p>
+                            <button class="buy"><s>$2500</s>$1500</button>
+                    </div>
+                    
+                    <a href="#" class="head">Evil Following MB</a>
+                    <div class="content">
+                        <img src="img/evl-pa-flw.jpg">
+                        <p>This bike has been built by our mechanics with Shimano’s 1x11 drivetrain. 
+                            An 11-46T cassette gives you range to climb steep and descend fast. 
+                            Race Face’s Aeffect line covers the cranks and cockpit, giving you lightweight efficiency and exceedingly responsive handling. 
+                            You also get the lightweight reliability of E.13’s wheels and tires. 
+                            Shimano’s XT brakes offer ample stopping power for navigating tricky situations. 
+                            The frame is made with uni-directional one-piece carbon fiber and features integrated chain guides and cable routing. 
+                            The downtube and chainstays feature rubber protectors, and the bolt-on, boost axles are smooth and stable.</p>
+                        <button class="buy"><s>$5000</s>$3000</button>
+                    </div>
+                    
+                    <a href="#" class="head">Pivot Firebird 29</a>
+                    <div class="content">
+                        <img src="img/firebird-29.jpg">
+                        <p>Words can hardly describe the feeling of riding a bike like the Firebird 29. It’s terrifyingly fast. 
+                            It knows no limits. It’s... insane. For a bike that fearlessly dominates downhill terrain, 
+                            it’s incredibly well behaved on the climbs. It’s a bike that never could have existed without the bold innovation of a company like Pivot. 
+                            They took the rule book and burned it - out of the ashes came the biggest, 
+                            baddest thing the mountain bike world has ever seen.</p>
+                        <button class="buy"><s>$5500</s>$3800</button>
+                    </div>
+                </li>
+            </ul>
+		</main>
+        <footer includefile="footer.html">
+		</footer>
+		<script src="js/include.js"></script>
+		<script src="js/hamburger.js"></script>
+		<script src="js/active.js"></script>
+	</body>
+</html>

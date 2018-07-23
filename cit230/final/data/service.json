@@ -1,0 +1,49 @@
+{
+    "services": [
+        {
+            "name": "Run Through",
+            "price": "$25",
+            "includes": [
+                "Basic bike inspection",
+                "Torque all bolts to spec",
+                "Address any safety concerns",
+                "Lube chain"
+            ]
+        },
+
+        {
+            "name": "Standard Tune",
+            "price": "$50",
+            "includes": [
+                "True wheels",
+                "Adjust derailleurs and shifters",
+                "Adjust bottom bracket, headset, hubs, and brakes",
+                "Lube and clean suspension",
+                "Clean frame",
+                "Lube chain"
+            ]
+        },
+
+        {
+            "name": "Deluxe Tune",
+            "price": "$100",
+            "includes": [
+                "Everything from Standard Tune",
+                "Complete disassembly, cleaning, and lube of drivetrain",
+                "All new cables and housing",
+                "Brake bleed"
+            ] 
+        },
+        
+        {
+            "name": "Complete Overhaul",
+            "price": "$200",
+            "includes": [
+                "Everything from Deluxe Tune",
+                "Full frame strip down",
+                "Overhaul headset, bottom bracket, free wheel body, and hubs",
+                "Clean and lube seat tube"
+            ]
+        }
+    ]
+}
