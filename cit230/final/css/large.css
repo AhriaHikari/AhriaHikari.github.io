@@ -23,6 +23,10 @@
         flex-flow: row wrap;
     }
 
+    main#grid { 
+        justify-content: space-between;
+    }
+
     main#solo {
         justify-content: center;
     }
@@ -34,6 +38,10 @@
 
     img#adventureFix {
         height: 51%;
+    }
+
+    article {
+        width: 45em;
     }
 
     /*-----Footer-----*/
