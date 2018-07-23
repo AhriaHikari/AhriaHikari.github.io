@@ -23,6 +23,10 @@
         flex-flow: row wrap;
     }
 
+    main#solo {
+        justify-content: center;
+    }
+
     main div {
         border: none;
         width: 50%;
