@@ -2,7 +2,7 @@ var urlString = document.location.href;
 var urlArray = urlString.split('/');
 var pageHREF=urlArray[urlArray.length-1];
 
-setTimeout(function(){
+setTimeout(function() {
     if (pageHREF !=="") {
     var menu = document.querySelectorAll('ul#menu li a');
     var i;
@@ -13,4 +13,5 @@ setTimeout(function(){
             menu[i].parentNode.className="active";
         }
     }
+}
 }, 500);

@@ -8,6 +8,10 @@
     header h1 {
         font-size: 3.3em;
     }
+
+    header div img {
+        height: 8.5em;
+    }
     
     /*-----Main-----*/
     p {
@@ -21,11 +25,11 @@
     main {
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-between;
     }
 
     main div {
         border: none;
+        width: 50%;
     }
 
     /*-----Footer-----*/

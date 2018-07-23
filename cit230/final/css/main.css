@@ -87,22 +87,26 @@ nav ul li a:hover {
 }
 
 /*--------Main---------*/
-main div img{
+main div img {
     width: 100%;
 }
 
-main div{
+main div {
     text-align: center;
     border: solid #F7C20E 1px;
 }
 
-div a{
+div a {
     color: #F7C20E;
     text-decoration: none;
 }
 
-div#google{
+div#google {
     width: 100%;
+}
+
+iframe {
+    width: 100%
 }
 
 /*-------Footer-----*/
