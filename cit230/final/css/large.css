@@ -18,10 +18,6 @@
         font-size: 25px;
     }
 
-    main div img {
-        width: 50%;
-    }
-
     main {
         display: flex;
         flex-flow: row wrap;
