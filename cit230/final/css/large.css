@@ -44,6 +44,10 @@
         width: 45em;
     }
 
+    .content {
+        margin: auto;
+    }
+
     /*-----Footer-----*/
 	section.footerbar {
 		font-size: 30px;

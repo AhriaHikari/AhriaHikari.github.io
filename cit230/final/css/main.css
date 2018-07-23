@@ -145,7 +145,7 @@ footer a{
 /* ---------- FORM ----------------*/
 form fieldset{
     margin: 2rem 0;
-    border: 1px solid #3e2c5c;
+    border: 1px solid #809507;
     border-radius: 10px;
     padding: .5rem 2%;
 }
@@ -157,7 +157,7 @@ form legend{
 form label.top, form div{
     display: block;
     padding-top: 1rem;
-    color: #8d0111;
+    color: #D30F02;
     font-size: .8rem;
 }
 form label.top input, form label.top select{
@@ -179,7 +179,7 @@ form label.sbs{
 }
 form input.submitBtn{
     border: none;
-    background-color: #8d0111;
+    background-color: #D30F02;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -203,7 +203,10 @@ form textarea {
 }
     
 .head { 
-    display:block; 
+    display:block;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #FA2D08;
 }
     
 .content { 
@@ -213,4 +216,11 @@ form textarea {
 li {
     position: relative;
     overflow: hidden;
+}
+
+/*------Contact----*/
+
+div.contacting{
+    text-align: center;
+    border: none;
 }

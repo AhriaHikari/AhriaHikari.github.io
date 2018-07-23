@@ -57,7 +57,7 @@
 	main div{
 		align-items: center;
 	}
-	
+
 	main h2 {
 		text-align: center;
 	}
@@ -68,7 +68,11 @@
 
 	p {
         font-size: 15px;
-    }
+	}
+	
+	li div img {
+		width: 50%;
+	}
 
 	/*-----Footer-----*/
 	section.footerbar {
