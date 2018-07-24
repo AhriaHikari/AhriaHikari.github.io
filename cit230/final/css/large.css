@@ -14,6 +14,10 @@
     }
     
     /*-----Main-----*/
+    main h1 {
+        margin: auto;
+    }
+
     p {
         font-size: 25px;
     }
@@ -54,6 +58,11 @@
 
     form input.submitBtn{
         height: 8rem;
+    }
+
+    img#bow {
+        width: 57%;
+        margin: auto;
     }
 
     /*-----Footer-----*/
