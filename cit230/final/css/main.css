@@ -87,6 +87,10 @@ nav ul li a:hover {
 }
 
 /*--------Main---------*/
+main h1 {
+    text-align: center;
+}
+
 main img {
     width: 100%
 }
