@@ -48,6 +48,14 @@
         margin: auto;
     }
 
+    main#form{
+        display: block;
+    }
+
+    form input.submitBtn{
+        height: 8rem;
+    }
+
     /*-----Footer-----*/
 	section.footerbar {
 		font-size: 30px;

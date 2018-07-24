@@ -74,6 +74,16 @@
 		width: 50%;
 	}
 
+	/*------Form------*/
+	form {
+		display: flex;
+		justify-content: space-evenly;
+		flex-flow: row wrap;
+	}
+	
+	form input.submitBtn {
+		height: 50%;
+	}
 	/*-----Footer-----*/
 	section.footerbar {
 		font-size: 20px;
